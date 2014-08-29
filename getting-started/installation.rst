@@ -105,7 +105,8 @@ simple to do it yourself. Here's what you would do:
    - Enter an HMAC key for bcrypt password hashing
 
 6. Create a `virtualenv`_ (if not already in one)
-7. Run ``pip install -r requirements/compiled.txt``
+7. Run ``git submodule init && git submodule update --recursive``
+8. Run ``pip install -r requirements/compiled.txt``
 
 Then you should be ready to run syncdb and start up the server::
 
